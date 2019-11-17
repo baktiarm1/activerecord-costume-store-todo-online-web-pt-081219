@@ -9,7 +9,7 @@ class HauntedHouse  < ActiveRecord:Migration[5.1]
       t.boolean :is_friendly
       t.timestamp :opening_time
       t.timestamp :closing_time
-      t.string :long_description
+      t.text :long_description
     end
   end
-end 
+end
