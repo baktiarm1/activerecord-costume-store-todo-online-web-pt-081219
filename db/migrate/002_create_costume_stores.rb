@@ -1,5 +1,5 @@
 # Create your costume_stores migration here
-class CostumeStore <  < ActiveRecord:Migration[5.1]
+class CostumeStore <  < ActiveRecord::Migration[5.1]
   def change
     create_table :costume_stores do |t|
       t.string :name
@@ -11,4 +11,4 @@ class CostumeStore <  < ActiveRecord:Migration[5.1]
       t.timestamp :closing_time
     end
   end
-end 
+end
